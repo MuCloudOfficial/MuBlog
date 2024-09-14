@@ -38,8 +38,6 @@ languages:
         - name: Tags
           url: tags/
           weight: 10
-        - name: WiKi
-          url: https://github.com/MuCloudOfficial/MuBlog
     params:
       languageAltTitle: English
       profileMode:
