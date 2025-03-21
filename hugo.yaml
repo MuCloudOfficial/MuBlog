@@ -5,9 +5,40 @@ title: "Mu_Cloud's Blog"
 theme: ["PaperMod"]
 
 params:
+  author: Mu_Cloud
+
+  background: "assets/images/bg1.jpg"
+
   contact:
     email: "Mu_Cloud@outlook.de"
   subtitle: "MADE IN VOID LAND."
+
+  # HomePage Mod
+  homeInfoParams:
+    Title: Hi! Mu_Cloud Here!
+    Content: MADE IN VOID LAND.
+
+  socialIcons: # optional
+    - name: "<platform>"
+      url: "<link>"
+    - name: "<platform 2>"
+      url: "<link2>"
+
+  # Personal Profile Mode
+#  profileMode:
+#    enabled: true
+#    title: "<Title>" # optional default will be site title
+#    subtitle: "This is subtitle"
+#    imageUrl: "<image link>" # optional
+#    imageTitle: "<title of image as alt>" # optional
+#    imageWidth: 120 # custom size
+#    imageHeight: 120 # custom size
+#    buttons:
+#      - name: Archive
+#        url: "/archive"
+#      - name: Github
+#        url: "https://github.com/"
+  comments: true
 
 menus:
   footer:
@@ -21,3 +52,4 @@ menus:
 caches:
   images:
     dir: :cacheDir/images
+
