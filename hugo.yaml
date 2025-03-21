@@ -1,0 +1,23 @@
+baseURL: https://mucloudofficial.github.io/MuBlog
+languageCode: en-us
+title: "Mu_Cloud's Blog"
+
+theme: ["PaperMod"]
+
+params:
+  contact:
+    email: "Mu_Cloud@outlook.de"
+  subtitle: "MADE IN VOID LAND."
+
+menus:
+  footer:
+    - name: Terms
+      pageRef: /terms
+      weight: 10
+    - name: Privacy
+      pageRef: /privacy
+      weight: 20
+
+caches:
+  images:
+    dir: :cacheDir/images
