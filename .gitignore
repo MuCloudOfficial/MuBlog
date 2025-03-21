@@ -1,5 +1,5 @@
 # 默认忽略的文件
-/shelf/
+/.idea/shelf/
 /workspace.xml
 # 基于编辑器的 HTTP 客户端请求
 /httpRequests/
@@ -8,3 +8,4 @@
 /dataSources.local.xml
 /public/
 /.hugo_build.lock
+/.idea/shelf/在进行更新之前于_2025_3_21_09_27_取消提交了更改_[更改]/shelved.patch
