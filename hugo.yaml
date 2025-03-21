@@ -7,8 +7,6 @@ theme: ["PaperMod"]
 params:
   author: Mu_Cloud
 
-  background: "assets/images/bg1.jpg"
-
   contact:
     email: "Mu_Cloud@outlook.de"
   subtitle: "MADE IN VOID LAND."
@@ -19,10 +17,12 @@ params:
     Content: MADE IN VOID LAND.
 
   socialIcons: # optional
-    - name: "<platform>"
-      url: "<link>"
-    - name: "<platform 2>"
-      url: "<link2>"
+    - name: "x"
+      url: "https://x.com/MuCloudOfficial"
+    - name: "bilibili"
+      url: "https://space.bilibili.com/356101590"
+    - name: "email"
+      url: "mailto:Mu_Cloud@outlook.de"
 
   # Personal Profile Mode
 #  profileMode:
@@ -41,13 +41,29 @@ params:
   comments: true
 
 menus:
-  footer:
-    - name: Terms
-      pageRef: /terms
+  main:
+    - name: Home
+      pageRef: /
       weight: 10
-    - name: Privacy
-      pageRef: /privacy
+    - name: Posts
+      pageRef: /posts
       weight: 20
+    - name: Tags
+      pageRef: /tags
+      weight: 30
+    - name: View Github Source
+      weight: 40
+      url: "https://github.com/MuCloudOfficial/MuBlog"
+    - name: Main Site
+      weight: 50
+      url: "https://mucloudofficial.github.io"
+    - name: MuProject Doc
+      weight: 60
+      url: "https://mucloudofficial.github.io/MuCloudProjectDoc"
+
+categories:
+  - First
+  - Tutorial
 
 caches:
   images:
