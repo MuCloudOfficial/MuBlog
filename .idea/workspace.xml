@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="87d2f269-0bfe-458b-82b9-08ffdb317f17" name="更改" comment="Fix BG" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$/themes/PaperMod" value="mu" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MuCloudOfficial&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/adityatelange/hugo-PaperMod.git&quot;,
+    &quot;accountId&quot;: &quot;e5d669f3-d2aa-4eb4-9795-d8c3465155a9&quot;
+  }
+}</component>
+  <component name="HugoPluginSettings">
+    <option name="customHugoPath" value="D:\Mu_Cloud\Code\HTML_CSS_JS_Vue\Hugo\hugo.exe" />
+    <option name="defaultHugoNewOptions" value="" />
+    <option name="useCustomPath" value="true" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2uZvIXyYi10HDyEMqeFiSH9EC5a" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Hugo.Build.executor&quot;: &quot;Run&quot;,
+    &quot;Hugo.MuBlogTest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Mu_Cloud/Code/HTML_CSS_JS_Vue/Hugo/hugo.exe&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;hugo.plugin.settings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;stardust.markdown.MarkdownSplitEditorSuppressor:keyList&quot;: []
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Mu_Cloud\Code\HTML_CSS_JS_Vue\Hugo\MuBlog\assets\bg" />
+      <recent name="D:\Mu_Cloud\Code\HTML_CSS_JS_Vue\Hugo\MuBlog\assets" />
+      <recent name="D:\Mu_Cloud\Code\HTML_CSS_JS_Vue\Hugo\MuBlog\content\posts\first" />
+      <recent name="D:\Mu_Cloud\Code\HTML_CSS_JS_Vue\Hugo\MuBlog\themes\PaperMod\images" />
+      <recent name="D:\Mu_Cloud\Code\HTML_CSS_JS_Vue\Hugo\MuBlog\static" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Hugo.MuBlogTest">
+    <configuration name="Build" type="HUGO_RUN_CONFIGURATION" factoryName="Hugo configuration factory">
+      <option name="hugo.plugin.arguments" value="-D" />
+      <option name="hugo.plugin.run.server" value="no" />
+      <option name="hugo.plugin.custom.project.dir" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="MuBlogTest" type="HUGO_RUN_CONFIGURATION" factoryName="Hugo configuration factory">
+      <option name="hugo.plugin.arguments" value="--navigateToChanged --buildDrafts  --disableFastRender -D" />
+      <option name="hugo.plugin.run.server" value="run" />
+      <option name="hugo.plugin.custom.project.dir" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Hugo.MuBlogTest" />
+      <item itemvalue="Hugo.Build" />
+    </list>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-WS-243.26053.12" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="87d2f269-0bfe-458b-82b9-08ffdb317f17" name="更改" comment="" />
+      <created>1742468831319</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1742468831319</updated>
+      <workItem from="1742468832704" duration="640000" />
+      <workItem from="1742516223234" duration="16601000" />
+      <workItem from="1742566404483" duration="1468000" />
+    </task>
+    <task id="LOCAL-00001" summary="Delete old WorkFlow">
+      <option name="closed" value="true" />
+      <created>1742519823862</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1742519823862</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Update">
+      <option name="closed" value="true" />
+      <created>1742522554490</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1742522554490</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Update">
+      <option name="closed" value="true" />
+      <created>1742523104305</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1742523104305</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Update Theme">
+      <option name="closed" value="true" />
+      <created>1742529840152</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1742529840152</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add Background Image">
+      <option name="closed" value="true" />
+      <created>1742531385875</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1742531385875</updated>
+    </task>
+    <task id="LOCAL-00006" summary="ADD Menus">
+      <option name="closed" value="true" />
+      <created>1742533644910</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1742533644911</updated>
+    </task>
+    <task id="LOCAL-00007" summary="ADD Menus">
+      <option name="closed" value="true" />
+      <created>1742534031351</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1742534031351</updated>
+    </task>
+    <task id="LOCAL-00008" summary="ADD Menus">
+      <option name="closed" value="true" />
+      <created>1742566906743</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1742566906743</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Fix BG">
+      <option name="closed" value="true" />
+      <created>1742567653269</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1742567653269</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Delete old WorkFlow" />
+    <MESSAGE value="Update" />
+    <MESSAGE value="Update Theme" />
+    <MESSAGE value="Add Background Image" />
+    <MESSAGE value="ADD Menus" />
+    <MESSAGE value="Fix BG" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix BG" />
+  </component>
+</project>
