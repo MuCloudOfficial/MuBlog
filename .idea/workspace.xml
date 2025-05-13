@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87d2f269-0bfe-458b-82b9-08ffdb317f17" name="更改" comment="Fix BG" />
+    <list default="true" id="87d2f269-0bfe-458b-82b9-08ffdb317f17" name="更改" comment="Fix BG">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/PaperMod" beforeDir="false" afterPath="$PROJECT_DIR$/themes/PaperMod" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,7 +54,7 @@
     &quot;Hugo.MuBlogTest.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Mu_Cloud/Code/HTML_CSS_JS_Vue/Hugo/hugo.exe&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Mu_Cloud/Code/HTML_CSS_JS_Vue/mucloudofficial.github.io&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -66,11 +69,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Mu_Cloud\Code\HTML_CSS_JS_Vue\Hugo\MuBlog" />
+      <recent name="D:\Mu_Cloud\Code\HTML_CSS_JS_Vue\Hugo\MuBlog\static" />
       <recent name="D:\Mu_Cloud\Code\HTML_CSS_JS_Vue\Hugo\MuBlog\assets\bg" />
       <recent name="D:\Mu_Cloud\Code\HTML_CSS_JS_Vue\Hugo\MuBlog\assets" />
       <recent name="D:\Mu_Cloud\Code\HTML_CSS_JS_Vue\Hugo\MuBlog\content\posts\first" />
-      <recent name="D:\Mu_Cloud\Code\HTML_CSS_JS_Vue\Hugo\MuBlog\themes\PaperMod\images" />
-      <recent name="D:\Mu_Cloud\Code\HTML_CSS_JS_Vue\Hugo\MuBlog\static" />
     </key>
   </component>
   <component name="RunManager" selected="Hugo.MuBlogTest">
@@ -87,14 +90,14 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Hugo.MuBlogTest" />
       <item itemvalue="Hugo.Build" />
+      <item itemvalue="Hugo.MuBlogTest" />
     </list>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-WS-243.26053.12" />
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-WS-251.25410.117" />
       </set>
     </attachedChunks>
   </component>
@@ -108,7 +111,11 @@
       <updated>1742468831319</updated>
       <workItem from="1742468832704" duration="640000" />
       <workItem from="1742516223234" duration="16601000" />
-      <workItem from="1742566404483" duration="1468000" />
+      <workItem from="1742566404483" duration="1974000" />
+      <workItem from="1743130017111" duration="11000" />
+      <workItem from="1743131688951" duration="39000" />
+      <workItem from="1744972770673" duration="8000" />
+      <workItem from="1747122936245" duration="316000" />
     </task>
     <task id="LOCAL-00001" summary="Delete old WorkFlow">
       <option name="closed" value="true" />
@@ -182,7 +189,31 @@
       <option name="project" value="LOCAL" />
       <updated>1742567653269</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Fix BG">
+      <option name="closed" value="true" />
+      <created>1742568072792</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1742568072792</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Fix BG">
+      <option name="closed" value="true" />
+      <created>1742568185978</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1742568185978</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Fix BG">
+      <option name="closed" value="true" />
+      <created>1742568200720</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1742568200720</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
