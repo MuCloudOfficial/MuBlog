@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87d2f269-0bfe-458b-82b9-08ffdb317f17" name="更改" comment="Update WorkFlow: Update Hugo to Ver.0.147.3">
+    <list default="true" id="87d2f269-0bfe-458b-82b9-08ffdb317f17" name="更改" comment="Update Blog Content: Frontend Blog File">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/posts/frontend/first.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/posts/frontend/first.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/PaperMod/assets/css/common/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/PaperMod/assets/css/common/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +21,7 @@
         <entry key="$PROJECT_DIR$/themes/PaperMod" value="mu" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/themes/PaperMod" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -53,7 +55,7 @@
     "Hugo.MuBlogTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Mu_Cloud/Code/HTML_CSS_JS_Vue/mucloudofficial.github.io",
+    "last_opened_file_path": "D:/Mu_Cloud/Code/HTML_CSS_JS_Vue/Hugo/MuBlog/content/posts/frontend",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -67,6 +69,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Mu_Cloud\Code\HTML_CSS_JS_Vue\Hugo\MuBlog\content\posts\frontend" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Mu_Cloud\Code\HTML_CSS_JS_Vue\Hugo\MuBlog" />
       <recent name="D:\Mu_Cloud\Code\HTML_CSS_JS_Vue\Hugo\MuBlog\static" />
@@ -116,7 +121,7 @@
       <workItem from="1744972770673" duration="8000" />
       <workItem from="1747122936245" duration="1119000" />
       <workItem from="1752731450664" duration="30000" />
-      <workItem from="1752731490552" duration="70000" />
+      <workItem from="1752731490552" duration="2791000" />
     </task>
     <task id="LOCAL-00001" summary="Delete old WorkFlow">
       <option name="closed" value="true" />
@@ -230,7 +235,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747123760678</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Update Blog Content: Frontend Blog File">
+      <option name="closed" value="true" />
+      <created>1752731841114</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1752731841114</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,6 +269,7 @@
     <MESSAGE value="Fix BG" />
     <MESSAGE value="Merge: PaperMod" />
     <MESSAGE value="Update WorkFlow: Update Hugo to Ver.0.147.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update WorkFlow: Update Hugo to Ver.0.147.3" />
+    <MESSAGE value="Update Blog Content: Frontend Blog File" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Blog Content: Frontend Blog File" />
   </component>
 </project>
