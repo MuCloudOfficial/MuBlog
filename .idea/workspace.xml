@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87d2f269-0bfe-458b-82b9-08ffdb317f17" name="更改" comment="Fix BG">
+    <list default="true" id="87d2f269-0bfe-458b-82b9-08ffdb317f17" name="更改" comment="Update WorkFlow: Update Hugo to Ver.0.147.3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod" beforeDir="false" afterPath="$PROJECT_DIR$/themes/PaperMod" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,25 +47,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Hugo.Build.executor&quot;: &quot;Run&quot;,
-    &quot;Hugo.MuBlogTest.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Mu_Cloud/Code/HTML_CSS_JS_Vue/mucloudofficial.github.io&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;hugo.plugin.settings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Hugo.Build.executor": "Run",
+    "Hugo.MuBlogTest.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/Mu_Cloud/Code/HTML_CSS_JS_Vue/mucloudofficial.github.io",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;stardust.markdown.MarkdownSplitEditorSuppressor:keyList&quot;: []
+  "keyToStringList": {
+    "stardust.markdown.MarkdownSplitEditorSuppressor:keyList": []
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Mu_Cloud\Code\HTML_CSS_JS_Vue\Hugo\MuBlog" />
@@ -97,7 +96,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-WS-251.25410.117" />
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-WS-251.26927.40" />
       </set>
     </attachedChunks>
   </component>
@@ -115,7 +114,9 @@
       <workItem from="1743130017111" duration="11000" />
       <workItem from="1743131688951" duration="39000" />
       <workItem from="1744972770673" duration="8000" />
-      <workItem from="1747122936245" duration="316000" />
+      <workItem from="1747122936245" duration="1119000" />
+      <workItem from="1752731450664" duration="30000" />
+      <workItem from="1752731490552" duration="70000" />
     </task>
     <task id="LOCAL-00001" summary="Delete old WorkFlow">
       <option name="closed" value="true" />
@@ -213,7 +214,23 @@
       <option name="project" value="LOCAL" />
       <updated>1742568200720</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Merge: PaperMod">
+      <option name="closed" value="true" />
+      <created>1747123304338</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1747123304338</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Update WorkFlow: Update Hugo to Ver.0.147.3">
+      <option name="closed" value="true" />
+      <created>1747123760678</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1747123760678</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,6 +254,8 @@
     <MESSAGE value="Add Background Image" />
     <MESSAGE value="ADD Menus" />
     <MESSAGE value="Fix BG" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix BG" />
+    <MESSAGE value="Merge: PaperMod" />
+    <MESSAGE value="Update WorkFlow: Update Hugo to Ver.0.147.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update WorkFlow: Update Hugo to Ver.0.147.3" />
   </component>
 </project>
