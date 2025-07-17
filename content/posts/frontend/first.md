@@ -1,6 +1,6 @@
 ---
 date: '2025-03-21T08:43:40+08:00'
-draft: true
+draft: false
 title: '前端面试题集'
 tags: ["hugo","markdown"]
 ---
@@ -8,7 +8,9 @@ tags: ["hugo","markdown"]
 ##  前言
 
 都是面试被问过的东西，留着做个 backup
+
 面试经验集 ×
+
 面试丢人集 √
 
 ##  z-index 有什么作用 \#css \#z-index
