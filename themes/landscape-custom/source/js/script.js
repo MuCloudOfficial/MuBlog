@@ -138,6 +138,21 @@
 
   // Theme mode
   var themeStorageKey = 'mublog-theme-mode';
+  var currentThemeMode = 'light';
+
+  var syncGiscusThemeWhenReady = function(mode){
+    var retries = 20;
+    var timer = setInterval(function(){
+      var iframe = document.querySelector('iframe.giscus-frame');
+      if (!iframe) {
+        retries--;
+        if (retries <= 0) clearInterval(timer);
+        return;
+      }
+      setGiscusTheme(mode);
+      clearInterval(timer);
+    }, 300);
+  };
 
   var setGiscusTheme = function(mode){
     var iframe = document.querySelector('iframe.giscus-frame');
@@ -152,10 +167,12 @@
 
   var applyThemeMode = function(mode){
     var isDark = mode === 'dark';
+    currentThemeMode = isDark ? 'dark' : 'light';
     $('body').toggleClass('dark-mode', isDark);
     var $icon = $('#theme-toggle-btn .fa');
     $icon.toggleClass('fa-moon-o', !isDark).toggleClass('fa-sun-o', isDark);
     setGiscusTheme(mode);
+    syncGiscusThemeWhenReady(mode);
   };
 
   var savedMode = localStorage.getItem(themeStorageKey);
@@ -167,4 +184,14 @@
     localStorage.setItem(themeStorageKey, nextMode);
     applyThemeMode(nextMode);
   });
+
+  // If Giscus iframe is appended later, sync it to current theme mode.
+  if (window.MutationObserver) {
+    var observer = new MutationObserver(function(){
+      if (document.querySelector('iframe.giscus-frame')) {
+        setGiscusTheme(currentThemeMode);
+      }
+    });
+    observer.observe(document.body, { childList: true, subtree: true });
+  }
 })(jQuery);

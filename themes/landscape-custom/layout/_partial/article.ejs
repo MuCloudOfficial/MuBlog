@@ -33,7 +33,7 @@
           <%= __('comment') %>
         </a>
       <% } %>
-      <% if (post.comments && theme.giscus && theme.giscus.enable && theme.giscus.repo && theme.giscus.repo_id && theme.giscus.category && theme.giscus.category_id){ %>
+      <% if (theme.giscus && theme.giscus.enable && theme.giscus.repo && theme.giscus.repo_id && theme.giscus.category && theme.giscus.category_id){ %>
         <a href="<%- url_for(post.path) %>#comments" class="article-comment-link"><span class="fa fa-comment"><%= __('comment') %></span></a>
       <% } %>
       <%- partial('post/tag') %>
@@ -56,7 +56,7 @@
 
   </section>
 <% } %>
-<% if (!index && post.comments && theme.giscus && theme.giscus.enable && theme.giscus.repo && theme.giscus.repo_id && theme.giscus.category && theme.giscus.category_id){ %>
+<% if (!index && post.layout === 'post' && theme.giscus && theme.giscus.enable && theme.giscus.repo && theme.giscus.repo_id && theme.giscus.category && theme.giscus.category_id){ %>
 <section id="comments">
   <script src="https://giscus.app/client.js"
     data-repo="<%= theme.giscus.repo %>"
