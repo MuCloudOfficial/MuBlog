@@ -11,7 +11,7 @@ menu:
 # RSS link
 rss: /atom.xml
 # Path of title banner image of page top
-banner: "images/banner.jpg"
+banner:
 # Subtitle of page top
 subtitle: Mu_Cloud 的技术博客
 # Header links with icon, specified links will appear at the top right corner of the page
@@ -47,6 +47,7 @@ copyright:
 sidebar: right
 # Widgets displaying in sidebar
 widgets:
+- profile
 - category
 - tag
 - tagcloud
@@ -92,18 +93,28 @@ valine:
   placeholder: Just go go # valine comment input placeholder(like: Please leave your footprints )
   guest_info: nick,mail,link #valine comment header info
 
-# giscus comment system. https://giscus.app/zh-CN
-giscus:
+# waline comment system. https://waline.js.org
+waline:
   enable: true
-  repo: MuCloudOfficial/MuBlog
-  repo_id: R_kgDOM5yYQ
-  category: Announcements
-  category_id: DIC_kwDOM5yYQs4CRv9f
-  mapping: pathname
-  strict: 0
-  reactions_enabled: 1
-  emit_metadata: 0
-  input_position: bottom
-  theme: preferred_color_scheme
+  serverURL: https://muwaline.muverse.ltd/
   lang: zh-CN
-  loading: lazy
+  pageSize: 10
+  reaction: false
+  search: false
+  login: enable
+  wordLimit: 1000
+  requiredMeta: [nick, mail]
+  emoji: []
+
+# profile widget
+author_card:
+  name: Mu_Cloud
+  title: Full Stack Developer
+  bio: 热爱前端工程化、AI 与产品落地，持续分享学习和实战经验。
+  avatar: /images/avatar.jpg
+  button_text: 了解更多
+  button_link: /about
+
+# site background
+site_background:
+  image: /images/site-bg.jpg

@@ -44,3 +44,160 @@
     });
 </script>
 <% } %>
+
+<% if (theme.waline && theme.waline.enable && theme.waline.serverURL && page.layout === 'post'){ %>
+  <link rel="stylesheet" href="https://unpkg.com/@waline/client@v3/dist/waline.css">
+  <style id="waline-theme-override">
+    #comments {
+      background: rgba(255, 255, 255, 0.72) !important;
+      backdrop-filter: blur(8px) !important;
+      -webkit-backdrop-filter: blur(8px) !important;
+    }
+    #comments #waline, #comments #waline .wl-container {
+      background: transparent !important;
+      --waline-bg-color: transparent;
+      --waline-bg-color-light: transparent;
+      --waline-border-color: transparent;
+      --waline-color: #1f2937;
+      --waline-info-color: #334155;
+      --waline-theme-color: #2563eb;
+      --waline-active-color: #1d4ed8;
+    }
+    #comments #waline .wl-card {
+      background: transparent !important;
+      border-color: transparent !important;
+      box-shadow: none !important;
+      color: #1f2937 !important;
+    }
+    #comments #waline .wl-editor,
+    #comments #waline .wl-input,
+    #comments #waline .wl-panel,
+    #comments #waline .wl-preview {
+      background: rgba(255, 255, 255, 0.72) !important;
+      background-image: none !important;
+      border-color: rgba(203, 213, 225, 0.7) !important;
+      color: #1f2937 !important;
+    }
+    #comments #waline .wl-panel {
+      border-radius: 12px !important;
+      overflow: hidden !important;
+    }
+    #comments #waline .wl-header,
+    #comments #waline .wl-header-item,
+    #comments #waline .wl-header input {
+      background: transparent !important;
+      background-image: none !important;
+    }
+    #comments #waline .wl-header {
+      border-bottom: 1px solid rgba(203, 213, 225, 0.55) !important;
+    }
+    #comments #waline .wl-editor .wl-meta {
+      background: transparent !important;
+    }
+    #comments #waline .wl-editor .wl-meta .wl-input,
+    #comments #waline .wl-editor textarea {
+      background: rgba(255, 255, 255, 0.72) !important;
+      border-color: rgba(203, 213, 225, 0.7) !important;
+      color: #1f2937 !important;
+    }
+    #comments #waline .wl-meta,
+    #comments #waline .wl-content,
+    #comments #waline .wl-sort,
+    #comments #waline .wl-count {
+      background: transparent !important;
+      background-image: none !important;
+    }
+    body.dark-mode #comments #waline,
+    body.dark-mode #comments #waline .wl-container {
+      --waline-bg-color: transparent;
+      --waline-bg-color-light: transparent;
+      --waline-border-color: transparent;
+      --waline-color: #f1f5f9;
+      --waline-info-color: #cbd5e1;
+      --waline-theme-color: #7dd3fc;
+      --waline-active-color: #bae6fd;
+    }
+    body.dark-mode #comments {
+      background: rgba(17, 24, 39, 0.72) !important;
+      border-color: #1f2937 !important;
+      box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35) !important;
+      backdrop-filter: blur(8px) !important;
+      -webkit-backdrop-filter: blur(8px) !important;
+    }
+    body.dark-mode #comments #waline .wl-card {
+      background: transparent !important;
+      border-color: transparent !important;
+      box-shadow: none !important;
+      color: #f1f5f9 !important;
+    }
+    body.dark-mode #comments #waline .wl-editor,
+    body.dark-mode #comments #waline .wl-input,
+    body.dark-mode #comments #waline .wl-panel,
+    body.dark-mode #comments #waline .wl-preview {
+      background: rgba(15, 23, 42, 0.78) !important;
+      background-image: none !important;
+      border-color: #334155 !important;
+      color: #f1f5f9 !important;
+    }
+    body.dark-mode #comments #waline .wl-panel {
+      border-radius: 12px !important;
+      overflow: hidden !important;
+    }
+    body.dark-mode #comments #waline .wl-header,
+    body.dark-mode #comments #waline .wl-header-item,
+    body.dark-mode #comments #waline .wl-header input {
+      background: transparent !important;
+      background-image: none !important;
+    }
+    body.dark-mode #comments #waline .wl-header {
+      border-bottom: 1px solid rgba(71, 85, 105, 0.75) !important;
+    }
+    body.dark-mode #comments #waline .wl-editor .wl-meta {
+      background: transparent !important;
+    }
+    body.dark-mode #comments #waline .wl-editor .wl-meta .wl-input,
+    body.dark-mode #comments #waline .wl-editor textarea {
+      background: rgba(15, 23, 42, 0.78) !important;
+      border-color: #334155 !important;
+      color: #f8fafc !important;
+    }
+    body.dark-mode #comments #waline .wl-meta,
+    body.dark-mode #comments #waline .wl-content,
+    body.dark-mode #comments #waline .wl-sort,
+    body.dark-mode #comments #waline .wl-count {
+      background: transparent !important;
+      background-image: none !important;
+    }
+    body.dark-mode #comments #waline .wl-user-name,
+    body.dark-mode #comments #waline .wl-time,
+    body.dark-mode #comments #waline .wl-content,
+    body.dark-mode #comments #waline .wl-content *,
+    body.dark-mode #comments #waline .wl-content p,
+    body.dark-mode #comments #waline .wl-content span,
+    body.dark-mode #comments #waline .wl-content a,
+    body.dark-mode #comments #waline .wl-meta *,
+    body.dark-mode #comments #waline .wl-action,
+    body.dark-mode #comments #waline .wl-action *,
+    body.dark-mode #comments #waline .wl-like,
+    body.dark-mode #comments #waline .wl-reply {
+      color: #f8fafc !important;
+    }
+  </style>
+  <script type="module">
+    import { init } from 'https://unpkg.com/@waline/client@v3/dist/waline.js';
+
+    init({
+      el: '#waline',
+      serverURL: '<%= theme.waline.serverURL %>',
+      lang: '<%= theme.waline.lang || "zh-CN" %>',
+      pageSize: <%= theme.waline.pageSize || 10 %>,
+      reaction: <%= theme.waline.reaction ? 'true' : 'false' %>,
+      search: <%= theme.waline.search ? 'true' : 'false' %>,
+      login: '<%= theme.waline.login || "enable" %>',
+      wordLimit: <%= theme.waline.wordLimit || 0 %>,
+      requiredMeta: <%- JSON.stringify(theme.waline.requiredMeta || ['nick', 'mail']) %>,
+      emoji: <%- JSON.stringify(theme.waline.emoji || []) %>,
+      dark: 'body.dark-mode'
+    });
+  </script>
+<% } %>

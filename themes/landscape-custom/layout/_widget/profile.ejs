@@ -1,0 +1,21 @@
+<% if (theme.author_card) { %>
+  <div class="widget-wrap profile-card-wrap">
+    <div class="widget profile-card">
+      <% if (theme.author_card.avatar) { %>
+        <img class="profile-card-avatar" src="<%- url_for(theme.author_card.avatar) %>" alt="<%= theme.author_card.name || 'Profile Avatar' %>">
+      <% } %>
+      <% if (theme.author_card.name) { %>
+        <h3 class="profile-card-name"><%= theme.author_card.name %></h3>
+      <% } %>
+      <% if (theme.author_card.title) { %>
+        <p class="profile-card-title"><%= theme.author_card.title %></p>
+      <% } %>
+      <% if (theme.author_card.bio) { %>
+        <p class="profile-card-bio"><%= theme.author_card.bio %></p>
+      <% } %>
+      <% if (theme.author_card.button_text && theme.author_card.button_link) { %>
+        <a class="profile-card-button" href="<%- url_for(theme.author_card.button_link) %>"><%= theme.author_card.button_text %></a>
+      <% } %>
+    </div>
+  </div>
+<% } %>

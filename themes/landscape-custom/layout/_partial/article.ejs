@@ -1,11 +1,12 @@
 <article id="<%= post.layout %>-<%= post.slug %>" class="h-entry article article-type-<%= post.layout %>" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <%- partial('post/date', {class_name: 'article-date', date_format: null}) %>
-    <%- partial('post/category') %>
-  </div>
+  
   <div class="article-inner">
     <%- partial('post/gallery') %>
     <% if (post.link || post.title){ %>
+      <div class="article-meta">
+        <%- partial('post/date', {class_name: 'article-date', date_format: null}) %>
+        <%- partial('post/category') %>
+      </div>
       <header class="article-header">
         <%- partial('post/title', {class_name: 'p-name article-title'}) %>
       </header>
@@ -33,7 +34,7 @@
           <%= __('comment') %>
         </a>
       <% } %>
-      <% if (theme.giscus && theme.giscus.enable && theme.giscus.repo && theme.giscus.repo_id && theme.giscus.category && theme.giscus.category_id){ %>
+      <% if (theme.waline && theme.waline.enable && theme.waline.serverURL){ %>
         <a href="<%- url_for(post.path) %>#comments" class="article-comment-link"><span class="fa fa-comment"><%= __('comment') %></span></a>
       <% } %>
       <%- partial('post/tag') %>
@@ -56,23 +57,8 @@
 
   </section>
 <% } %>
-<% if (!index && post.layout === 'post' && theme.giscus && theme.giscus.enable && theme.giscus.repo && theme.giscus.repo_id && theme.giscus.category && theme.giscus.category_id){ %>
+<% if (!index && post.layout === 'post' && theme.waline && theme.waline.enable && theme.waline.serverURL){ %>
 <section id="comments">
-  <script src="https://giscus.app/client.js"
-    data-repo="<%= theme.giscus.repo %>"
-    data-repo-id="<%= theme.giscus.repo_id %>"
-    data-category="<%= theme.giscus.category %>"
-    data-category-id="<%= theme.giscus.category_id %>"
-    data-mapping="<%= theme.giscus.mapping || 'pathname' %>"
-    data-strict="<%= theme.giscus.strict || '0' %>"
-    data-reactions-enabled="<%= theme.giscus.reactions_enabled || '1' %>"
-    data-emit-metadata="<%= theme.giscus.emit_metadata || '0' %>"
-    data-input-position="<%= theme.giscus.input_position || 'bottom' %>"
-    data-theme="<%= theme.giscus.theme || 'preferred_color_scheme' %>"
-    data-lang="<%= theme.giscus.lang || 'zh-CN' %>"
-    data-loading="<%= theme.giscus.loading || 'lazy' %>"
-    crossorigin="anonymous"
-    async>
-  </script>
+  <div id="waline"></div>
 </section>
 <% } %>

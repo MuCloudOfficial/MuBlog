@@ -3,6 +3,30 @@
 body
   color: color-default
 
+body.has-site-bg
+  background: transparent
+
+body.has-site-bg #container
+  position: relative
+  z-index: 0
+  &:before
+    content: ""
+    position: fixed
+    inset: 0
+    background-image: var(--site-bg-image)
+    background-size: cover
+    background-position: center
+    background-attachment: fixed
+    z-index: -2
+  &:after
+    content: ""
+    position: fixed
+    inset: 0
+    z-index: -1
+
+body.has-site-bg #wrap
+  background: transparent
+
 a
   transition: color 0.2s ease
 
@@ -15,47 +39,195 @@ a
 #header-inner
   backdrop-filter: blur(3px)
 
+#header.no-banner
+  background: transparent
+  backdrop-filter: blur(16px) saturate(130%)
+  -webkit-backdrop-filter: blur(16px) saturate(130%)
+  border-bottom: 1px solid transparent
+  #logo, #subtitle
+    color: #0f172a !important
+  #main-nav .main-nav-link, #sub-nav .nav-icon
+    color: #0b1220 !important
+    text-shadow: 0 1px 2px rgba(255, 255, 255, 0.55)
+  #main-nav
+    margin-left: 0
+  #sub-nav
+    margin-right: 0
+  .main-nav-link, .nav-icon
+    opacity: 0.96
+    text-shadow: none
+  .main-nav-link:hover, .nav-icon:hover
+    opacity: 1
+    color: #020617 !important
+  .main-nav-link
+    font-weight: 500
+  .main-nav-link.active
+    color: #0b57d0
+    font-weight: 600
+
+@media mq-normal
+  #main, #sidebar
+    box-sizing: border-box
+  #main
+    padding-right: 14px
+  #sidebar
+    padding-left: 14px
+
 .article-inner
   border-radius: 10px
-  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08)
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.12)
   border: 1px solid #dbe4f0
+  background: rgba(255, 255, 255, 0.72)
+  backdrop-filter: blur(8px)
 
 .widget
   border-radius: 10px
-  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.06)
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.1)
   text-shadow: none
+  background: rgba(255, 255, 255, 0.72)
+  backdrop-filter: blur(8px)
+
+.profile-card
+  text-align: center
+
+.profile-card-avatar
+  width: 88px
+  height: 88px
+  border-radius: 50%
+  object-fit: cover
+  margin: 0 auto 12px
+  border: 2px solid rgba(255, 255, 255, 0.8)
+
+.profile-card-name
+  margin: 0 0 6px
+  font-size: 1.2em
+
+.profile-card-title
+  margin: 0 0 8px
+  color: #64748b
+  font-size: 0.95em
+
+.profile-card-bio
+  margin: 0 0 14px
+  font-size: 0.9em
+  line-height: 1.7
+
+.profile-card-button
+  display: inline-block
+  padding: 6px 14px
+  border-radius: 999px
+  background: rgba(37, 99, 235, 0.12)
+  color: #1d4ed8
+  text-decoration: none
+  &:hover
+    background: rgba(37, 99, 235, 0.2)
+    text-decoration: none
 
 .article-entry code
   background: #eef2ff
   border-radius: 4px
   padding: 2px 6px
 
+.archive-article-inner
+  position: relative
+  overflow: hidden
+  border-radius: 10px
+  box-shadow: 0 0 14px rgba(15, 23, 42, 0.14)
+  border: 1px solid #dbe4f0
+  background: rgba(255, 255, 255, 0.88)
+  backdrop-filter: none
+  -webkit-backdrop-filter: none
+  margin: 14px
+
+.archive-article-title
+  color: #0f172a
+
+.archive-article-date
+  color: #475569
+
+.archive-year
+  color: #1e3a8a
+
+#page-nav
+  border-radius: 10px
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.12)
+  border: 1px solid #dbe4f0
+  background: rgba(255, 255, 255, 0.72)
+  backdrop-filter: blur(8px)
+
 #theme-toggle-btn
   opacity: 1
 
 #comments
   margin: 24px 0 8px
-  .giscus
+  border-radius: 10px
+  background: rgba(255, 255, 255, 0.82)
+  backdrop-filter: none
+  -webkit-backdrop-filter: none
+  #waline, .wl-container, .wl-card, .wl-meta, .wl-content
     background: transparent
+    --waline-bg-color: rgba(255, 255, 255, 0.92)
+    --waline-bg-color-light: rgba(255, 255, 255, 0.92)
+    --waline-border-color: #dbe4f0
+    --waline-color: #0f172a
+    --waline-info-color: #64748b
+    --waline-theme-color: #2563eb
+    --waline-active-color: #1d4ed8
+  .wl-editor, .wl-input, .wl-panel, .wl-preview
+    background: rgba(255, 255, 255, 0.9) !important
+    background-image: none !important
+    border-color: #dbe4f0 !important
 
 body.dark-mode
   background: #0b1220
   color: #d1d5db
   #wrap
     background: #0b1220
+  &.has-site-bg #wrap
+    background: transparent
+  &.has-site-bg:after
+    background: rgba(2, 6, 23, 0.4)
   #header
     border-bottom-color: #1f2937
+    &.no-banner
+      background: transparent
+      backdrop-filter: blur(16px) saturate(120%)
+      -webkit-backdrop-filter: blur(16px) saturate(120%)
+      border-bottom-color: transparent
+      #main-nav .main-nav-link, #sub-nav .nav-icon
+        color: #0b1220 !important
+        opacity: 0.94
+        text-shadow: 0 1px 2px rgba(255, 255, 255, 0.55)
   .article-date, .article-category-link, .article-category
     text-shadow: none
     color: #9ca3af
   .article-inner
-    background: #111827
+    background: rgba(17, 24, 39, 0.72)
     border-color: #1f2937
     box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35)
   .article-entry
     color: #d1d5db
     a
       color: #7dd3fc
+  .archive-article-inner
+    background: rgba(17, 24, 39, 0.88)
+    border-color: #1f2937
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.35)
+  .archive-article-title
+    color: #f8fafc
+  .archive-article-date
+    color: #94a3b8
+  .archive-year
+    color: #334155
+  #page-nav
+    background: rgba(17, 24, 39, 0.72)
+    border-color: #1f2937
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35)
+    a
+      color: #cbd5e1
+      &:hover
+        background: #334155
+        color: #f8fafc
   .article-footer
     border-top-color: #334155
     a
@@ -79,12 +251,19 @@ body.dark-mode
     text-shadow: none
     color: #94a3b8
   .widget
-    background: #111827
+    background: rgba(17, 24, 39, 0.72)
     color: #cbd5e1
     border-color: #1f2937
     box-shadow: none
     a
       color: #7dd3fc
+  .profile-card-title
+    color: #94a3b8
+  .profile-card-button
+    background: rgba(125, 211, 252, 0.15)
+    color: #bae6fd
+    &:hover
+      background: rgba(125, 211, 252, 0.22)
   .search-form
     background: #111827
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35)
@@ -101,5 +280,19 @@ body.dark-mode
   #mobile-nav
     background: #0f172a
   #comments
-    .giscus
-      color-scheme: dark
+    background: rgba(17, 24, 39, 0.82)
+    border-color: #1f2937
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35)
+    #waline, .wl-container
+      --waline-bg-color: rgba(15, 23, 42, 0.92)
+      --waline-bg-color-light: rgba(15, 23, 42, 0.92)
+      --waline-border-color: #334155
+      --waline-color: #e2e8f0
+      --waline-info-color: #94a3b8
+      --waline-theme-color: #7dd3fc
+      --waline-active-color: #bae6fd
+    .wl-card, .wl-editor, .wl-input, .wl-panel, .wl-preview, .wl-meta, .wl-content
+      background: rgba(15, 23, 42, 0.9) !important
+      background-image: none !important
+      color: #e2e8f0
+      border-color: #334155
