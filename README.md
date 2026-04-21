@@ -48,7 +48,7 @@ cover: /images/cover.png
 
 项目已切换到本地主题：`themes/landscape-custom`
 
-- 站点主题配置文件：`_config.landscape-custom.yml`
+- 站点主题配置文件：`themes/landscape-custom/_config.yml`
 - 主题模板文件：`themes/landscape-custom/layout/`
 - 主题样式文件：`themes/landscape-custom/source/css/`
 - 主题增强样式层：`themes/landscape-custom/source/css/_custom.styl`
@@ -60,7 +60,7 @@ cover: /images/cover.png
 
 ## Giscus 配置
 
-请在 `_config.landscape-custom.yml` 的 `giscus` 段中填写真实值：
+请在 `themes/landscape-custom/_config.yml` 的 `giscus` 段中填写真实值：
 
 - `enable`：填完参数后改为 `true`
 - `repo`：评论绑定的 GitHub 仓库，如 `owner/repo`
