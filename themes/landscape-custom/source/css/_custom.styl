@@ -1,0 +1,97 @@
+// Custom visual layer for Mublog
+
+body
+  color: color-default
+
+a
+  transition: color 0.2s ease
+
+#header:before
+  background: linear-gradient(rgba(15, 23, 42, 0.35), transparent)
+
+#header:after
+  background: linear-gradient(transparent, rgba(15, 23, 42, 0.35))
+
+#header-inner
+  backdrop-filter: blur(3px)
+
+.article-inner
+  border-radius: 10px
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08)
+  border: 1px solid #dbe4f0
+
+.widget
+  border-radius: 10px
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.06)
+  text-shadow: none
+
+.article-entry code
+  background: #eef2ff
+  border-radius: 4px
+  padding: 2px 6px
+
+#theme-toggle-btn
+  opacity: 1
+
+body.dark-mode
+  background: #0b1220
+  color: #d1d5db
+  #wrap
+    background: #0b1220
+  #header
+    border-bottom-color: #1f2937
+  .article-date, .article-category-link, .article-category
+    text-shadow: none
+    color: #9ca3af
+  .article-inner
+    background: #111827
+    border-color: #1f2937
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35)
+  .article-entry
+    color: #d1d5db
+    a
+      color: #7dd3fc
+  .article-footer
+    border-top-color: #334155
+    a
+      color: #9ca3af
+      &:hover
+        color: #e5e7eb
+  .article-title
+    color: #f8fafc
+  .article-more-link a
+    background: #1f2937
+    color: #cbd5e1
+    text-shadow: none
+  .article-share-box
+    background: #111827
+  .article-share-input
+    color: #e5e7eb
+    border-color: #334155
+  .article-share-links
+    background: #1f2937
+  .widget-title
+    text-shadow: none
+    color: #94a3b8
+  .widget
+    background: #111827
+    color: #cbd5e1
+    border-color: #1f2937
+    box-shadow: none
+    a
+      color: #7dd3fc
+  .search-form
+    background: #111827
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35)
+  .search-form-input
+    color: #e5e7eb
+  .search-form-submit
+    color: #94a3b8
+  #footer
+    border-top-color: #1f2937
+    background: #020617
+    color: #94a3b8
+    a
+      color: #7dd3fc
+  #mobile-nav
+    background: #0f172a
