@@ -18,7 +18,7 @@ timezone: "Asia/Shanghai"
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://mublog.muverse.ltd
+url: https://blog.muverse.ltd
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -102,13 +102,6 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: landscape-custom
-
-# Deployment
-## Docs: https://hexo.io/docs/one-command-deployment
-deploy:
-  type: git
-  repo: https://github.com/MuCloudOfficial/MuBlog.git
-  branch: main
 
 # Feed
 ## Docs: https://github.com/hexojs/hexo-generator-feed

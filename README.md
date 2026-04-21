@@ -15,7 +15,6 @@ pnpm server
 pnpm server                # 本地预览
 pnpm clean                 # 清理缓存
 pnpm build                 # 生成静态文件到 public/
-pnpm deploy                # 按 _config.yml 的 deploy 配置发布
 npx hexo new "文章标题"     # 创建新文章
 ```
 
@@ -82,3 +81,5 @@ cover: /images/cover.png
 3. `_config.yml` 里的 `url` 已设置为你的线上访问域名。
 
 完成后，每次 push 到 `main` 会自动构建并发布。
+
+> 当前仓库采用 Actions-only 发布流程，不使用本地 `hexo deploy`。
