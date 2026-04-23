@@ -5,12 +5,8 @@ layout: page
 description: 关于 MuBlog 与作者 Mu_Cloud
 ---
 
-欢迎来到 MuBlog。
+MuBlog
 
-这里主要记录以下内容：
+基于 Hexo 框架构建
 
-- 前端开发实践
-- Hexo 与博客搭建
-- 学习过程中的经验总结
-
-如果你想联系我，可以在文章评论区留言。
+Hexo 主题：由 CursorIDE 魔改后的 Landscape 主题
